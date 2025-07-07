@@ -6,18 +6,23 @@ const Player = ({ player, handelPlayerAdd, credit, setCredit, selectedPlayers })
     const { name, img, hand, country, category, age, price } = player;
     // handel player selection
     const playerSelection = (player) => {
-        if ( selectedPlayers.length < 6) {
-            if (credit >= price) {
-                toast.success("Player Added Successfully");
-                handelPlayerAdd(player)
-                setCredit(credit - price);
-            } else {
-                toast.error("You don't have enough Credit!");
+        if (selectedPlayers.length < 6) {
+                const findPlayer = selectedPlayers.find(item => item.id === player.id)
+            if (!findPlayer) {
+                if (credit >= price) {
+                    toast.success("Player Added Successfully");
+                    handelPlayerAdd(player)
+                    setCredit(credit - price);
+                } else {
+                    toast.error("You don't have enough Credit!");
+                }
+            }else{
+                toast.error("Already Selected this player !");
             }
-        }else{
+        } else {
             toast.error("Your Player slot filled!");
         }
-    }
+    };
     return (
         <div className="border-1 border-gray-100 rounded p-2 shadow-sm">
             <img className="w-full h-[160px] object-cover mb-4 rounded-lg" src={img} alt={`${name}-Img`} />

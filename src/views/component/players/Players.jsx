@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import './Players.css'
 import Player from "../player/Player";
 import SelectedPlayer from "../selectedPlayer/SelectedPlayer";
+import { FaFrownOpen } from "react-icons/fa";
 
 
 const Players = ({credit, setCredit}) => {
@@ -66,10 +67,17 @@ const Players = ({credit, setCredit}) => {
                 // load seleted data
                 <div>
                     {
+                        selectedPlayers.length === 0 
+                        ? 
+                        <FaFrownOpen className="mx-auto text-8xl text-gray-400" />
+                        :
                         selectedPlayers.map(player => <SelectedPlayer 
-                        player={player}
                         key={player.id}
+                        player={player}
+                        selectedPlayers={selectedPlayers}
+                        setSelectedPlayers={setSelectedPlayers}
                         />)
+                    
                     }
                 </div>
             }
