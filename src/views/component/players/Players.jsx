@@ -15,7 +15,7 @@ const Players = ({credit, setCredit}) => {
 
     // load players data
     useEffect(() => {
-        fetch("../../../../public/players.json")
+        fetch("/players.json")
             .then(res => res.json())
             .then(data => setPlayers(data))
             .catch(err => console.log(err))
