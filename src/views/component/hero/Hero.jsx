@@ -1,6 +1,6 @@
 import "./Hero.css";
 import heroImg from "../../../assets/banner-main.png"
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 
 const Hero = ({ handelCedit }) => {
     const handelCreditAddBtn = (coin, coinAdded) => {
@@ -17,10 +17,6 @@ const Hero = ({ handelCedit }) => {
                 <p>Beyond Boundaries Beyond Limits</p>
                 <button onClick={() => handelCreditAddBtn(1000000, true)}>Claim Free Credit</button>
             </div>
-            <ToastContainer
-                position="bottom-right"
-                autoClose={1500}
-            />
         </>
     );
 };

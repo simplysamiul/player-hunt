@@ -2,10 +2,13 @@ import NewsLetter from "../../views/component/newsletter/NewsLetter";
 import Players from "../../views/component/players/Players";
 
 
-const Body = () => {
+const Body = ({credit, setCredit}) => {
     return (
         <>
-            <Players />
+            <Players 
+            credit={credit} 
+            setCredit={setCredit}
+            />
             <NewsLetter />
         </>
     );

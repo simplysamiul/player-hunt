@@ -24,3 +24,7 @@
     font-weight: bold;
     /* border: 1px solid #E7FE29; */
 }
+
+.btn-bg-white{
+    background-color: white;
+}

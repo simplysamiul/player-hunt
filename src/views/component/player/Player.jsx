@@ -1,9 +1,23 @@
 import { FaFlag } from "react-icons/fa";
 import "./Player.css";
+import { toast } from "react-toastify";
 
-const Player = ({ player }) => {
+const Player = ({ player, handelPlayerAdd, credit, setCredit, selectedPlayers }) => {
     const { name, img, hand, country, category, age, price } = player;
-    console.log(player)
+    // handel player selection
+    const playerSelection = (player) => {
+        if ( selectedPlayers.length < 6) {
+            if (credit >= price) {
+                toast.success("Player Added Successfully");
+                handelPlayerAdd(player)
+                setCredit(credit - price);
+            } else {
+                toast.error("You don't have enough Credit!");
+            }
+        }else{
+            toast.error("Your Player slot filled!");
+        }
+    }
     return (
         <div className="border-1 border-gray-100 rounded p-2 shadow-sm">
             <img className="w-full h-[160px] object-cover mb-4 rounded-lg" src={img} alt={`${name}-Img`} />
@@ -19,9 +33,8 @@ const Player = ({ player }) => {
             <p className="text-sm text-gray-500 mb-1">Age: {age}</p>
             <div className="flex items-center justify-between">
                 <p className="text-sm text-gray-500 mb-1 font-bold">Price : {price} $</p>
-                <button className="chose-btn">Choose</button>
+                <button onClick={() => playerSelection(player)} className="chose-btn">Choose</button>
             </div>
-
         </div>
     );
 };
