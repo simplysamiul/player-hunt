@@ -1,6 +1,6 @@
-## Select Your VI
+## Select Your VI 
 
-# [http://adamant-burn.surge.sh/](Project Live Link)
+# http://adamant-burn.surge.sh/
 
 This is a player hunting website. Through to thi website anyone can select his best six players. In the website have so many fatures. This website made by using : React js, Tailwind css, CSS, Fake rest API, pure js (fetch, map, find etc) and so many packages for design purpose. 
 
