@@ -21,3 +21,5 @@ This is a player hunting website. Through to thi website anyone can select his b
 - Also added news letter section and footer section and those sectin are very good lookig. 
 
 So, Enjoy with your best fire sixer. 
+
+# <img src="./src/assets/overview.png"/>
