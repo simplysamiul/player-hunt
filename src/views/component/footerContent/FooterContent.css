@@ -1,0 +1,25 @@
+.footer-input input{
+    border: 1px solid lightgray;
+    padding: 9px;
+    color: rgb(36, 36, 36);
+    font-size: 14px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background: white;
+}
+
+.footer-input button{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background:
+        url('https://i.ibb.co/HL9Cdg0H/rb-2148971570-3.png'),
+        linear-gradient(45deg, #e66465, #f6e27a);
+    background-blend-mode: multiply;
+    cursor: pointer;
+    text-align: center;
+}

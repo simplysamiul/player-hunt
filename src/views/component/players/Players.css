@@ -1,0 +1,26 @@
+.btn{
+    border: 1px solid #dfdfdf;
+    color: #3a3a3a;
+    padding: 10px 12px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.available{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: none;
+}
+.selected{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left: none;
+}
+
+.btn-bg{
+    background-color: #E7FE29;
+    color: black;
+    font-weight: bold;
+    /* border: 1px solid #E7FE29; */
+}

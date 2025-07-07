@@ -1,0 +1,40 @@
+.newletter-container {
+    padding: 90px 0;
+    margin-bottom: -120px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url('../../../assets/bg-shadow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+    outline-offset: 10px;
+    outline: 2px solid white;
+    box-shadow: 0 0 10px 10px rgba(231, 231, 231, 0.123);
+}
+
+.newsletter-input input {
+    width: 250px;
+    border: 1px solid lightgray;
+    margin-right: 10px;
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.newsletter-input button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    background:
+        url('https://i.ibb.co/HL9Cdg0H/rb-2148971570-3.png'),
+        linear-gradient(45deg, #e66465, #f6e27a);
+    background-blend-mode: multiply;
+    cursor: pointer;
+    text-align: center;
+}

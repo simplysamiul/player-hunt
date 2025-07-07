@@ -1,0 +1,102 @@
+[
+  {
+    "id": "plr7H2K9aLm3BqX1Z5W",
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "hand": "right-hand batsman",
+    "age": 30,
+    "category": "batsman",
+    "img": "https://i.ibb.co/4RTFnBHM/babar-azam.jpg",
+    "price" : 900000
+  },
+  {
+    "id": "plr4J8Q2wRn6VpT0Y3E",
+    "name": "Mohammad Rizwan",
+    "country": "Pakistan",
+    "hand": "right-hand batsman",
+    "age": 32,
+    "category": "batsman",
+    "img": "https://i.ibb.co/twxrtT1B/md-rizwan.jpg",
+    "price" : 750000
+  },
+  {
+    "id": "plr9F3M1eKt5DuV7X2C",
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "hand": "left-hand all-rounder",
+    "age": 37,
+    "category": "all-rounder",
+    "img": "https://i.ibb.co/TqWhVGLM/sakib.webp",
+    "price" : 1000000
+  },
+  {
+    "id": "plr2L5P7sDj9HcW3Y8A",
+    "name": "Mohammad Amir",
+    "country": "Pakistan",
+    "hand": "left-hand bowler",
+    "age": 33,
+    "category": "bowler",
+    "img": "https://i.ibb.co/0pLF4DQJ/amir.jpg",
+    "price" : 1100000
+  },
+  {
+    "id": "plr8N1R6bGp4FkV0Z7T",
+    "name": "Shaheen Afridi",
+    "country": "Pakistan",
+    "hand": "left-hand bowler",
+    "age": 25,
+    "category": "bowler",
+    "img": "https://i.ibb.co/HT7Fk7h1/Shaheen-Afridi.jpg",
+    "price" : 850000
+  },
+  {
+    "id": "plr3C7K2qHt5MvX9B1E",
+    "name": "Hasan Ali",
+    "country": "Pakistan",
+    "hand": "right-hand bowler",
+    "age": 30,
+    "category": "bowler",
+    "img": "https://i.ibb.co/FqCNgp2R/hasan.jpg",
+    "price" : 650000
+  },
+  {
+    "id": "plr6D4F1rWs9LjY3K8P",
+    "name": "Imam-ul-Haq",
+    "country": "Pakistan",
+    "hand": "left-hand batsman",
+    "age": 29,
+    "category": "batsman",
+    "img": "https://i.ibb.co/PsmgCGXG/hasn-ali.png",
+    "price" : 1300000
+  },
+  {
+    "id": "plr1G9T7vBp3QkZ5X6N",
+    "name": "Mehidy Hasan Miraz",
+    "country": "Bangladesh",
+    "hand": "right-hand all-rounder",
+    "age": 27,
+    "category": "all-rounder",
+    "img": "https://i.ibb.co/5WWkhs9p/miraz.jpg",
+    "price" : 950000
+  },
+  {
+    "id": "plr5E8J3xRk2WqV6Y1H",
+    "name": "Haris Rauf",
+    "country": "Pakistan",
+    "hand": "right-hand bowler",
+    "age": 31,
+    "category": "bowler",
+    "img": "https://i.ibb.co/PvJtTwrC/rouf.jpg",
+    "price" : 1050000
+  },
+  {
+    "id": "plr0M2L8yFn4CbX7Z3Q",
+    "name": "Faheem Ashraf",
+    "country": "Pakistan",
+    "hand": "left-hand all-rounder",
+    "age": 30,
+    "category": "all-rounder",
+    "img": "https://i.ibb.co/Jjxd87tN/fahim.jpg",
+    "price" : 900000
+  }
+]
